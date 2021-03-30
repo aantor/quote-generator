@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development postcss build ./src/style.css -o ./dist/style.css --watch",
+    "dev": "postcss build ./src/style.css -o ./dist/style.css --watch",
     "prod": "NODE_ENV=production postcss build ./src/style.css -o ./dist/style.css"
   },
   "keywords": [],

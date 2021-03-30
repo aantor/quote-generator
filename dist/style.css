@@ -557,4 +557,75 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 }
+.debug-screens::before {
+	position: fixed;
+	z-index: 2147483647;
+	bottom: 0;
+	left: 0;
+	padding: .3333333em .5em;
+	font-size: 12px;
+	line-height: 1;
+	font-family: sans-serif;
+	background-color: #000;
+	color: #fff;
+	box-shadow: 0 0 0 1px #fff;
+	content: 'screen: _';
+}
+@media (min-width: 640px) {
+
+	.debug-screens::before {
+		content: 'screen: sm';
+	}
+}
+@media (min-width: 768px) {
+
+	.debug-screens::before {
+		content: 'screen: md';
+	}
+}
+@media (min-width: 1024px) {
+
+	.debug-screens::before {
+		content: 'screen: lg';
+	}
+}
+@media (min-width: 1280px) {
+
+	.debug-screens::before {
+		content: 'screen: xl';
+	}
+}
+@media (min-width: 1536px) {
+
+	.debug-screens::before {
+		content: 'screen: 2xl';
+	}
+}
 /* write custom styles below this line*/
+.bg-gradient-to-r {
+	background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.from-green-400 {
+	--tw-gradient-from: #34d399;
+	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(52, 211, 153, 0));
+}
+.to-blue-500 {
+	--tw-gradient-to: #3b82f6;
+}
+.bg-clip-text {
+	-webkit-background-clip: text;
+	        background-clip: text;
+}
+.text-center {
+	text-align: center;
+}
+.text-5xl {
+	font-size: 3rem;
+	line-height: 1;
+}
+.font-extrabold {
+	font-weight: 800;
+}
+.text-transparent {
+	color: transparent;
+}
