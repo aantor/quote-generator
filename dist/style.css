@@ -603,15 +603,6 @@ video {
 }
 /* write custom styles below this line*/
 /* sm:hover:active:disabled:opacity-75 */
-.-bottom-10 {
-	bottom: -2.5rem;
-}
-.-bottom-96 {
-	bottom: -24rem;
-}
-.border {
-	border-width: 1px;
-}
 .bg-gradient-to-r {
 	background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
