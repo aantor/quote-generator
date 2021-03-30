@@ -1,0 +1,22 @@
+{
+  "name": "yyyyy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss build ./src/style.css -o ./dist/style.css --watch",
+    "prod": "NODE_ENV=production postcss build ./src/style.css -o ./dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.17",
+    "autoprefixer": "^10.2.5",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4",
+    "tailwindcss-debug-screens": "^2.0.0"
+  }
+}
