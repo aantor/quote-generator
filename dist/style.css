@@ -601,38 +601,16 @@ video {
 		content: 'screen: 2xl';
 	}
 }
-.m-20 {
-	margin: 5rem;
+/* write custom styles below this line*/
+/* sm:hover:active:disabled:opacity-75 */
+.-bottom-10 {
+	bottom: -2.5rem;
 }
-.m-2 {
-	margin: 0.5rem;
+.-bottom-96 {
+	bottom: -24rem;
 }
-.m-16 {
-	margin: 4rem;
-}
-.m-28 {
-	margin: 7rem;
-}
-.m-\[\] {
-	margin: ;
-}
-.m-\[66\] {
-	margin: 66;
-}
-.m-\[666\] {
-	margin: 666;
-}
-.m-\[666px\] {
-	margin: 666px;
-}
-.flex {
-	display: flex;
-}
-.items-center {
-	align-items: center;
-}
-.justify-center {
-	justify-content: center;
+.border {
+	border-width: 1px;
 }
 .bg-gradient-to-r {
 	background-image: linear-gradient(to right, var(--tw-gradient-stops));

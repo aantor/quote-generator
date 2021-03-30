@@ -1,3 +1,5 @@
 @tailwind base;
 @tailwind components;
+/* write custom styles below this line*/
+/* sm:hover:active:disabled:opacity-75 */
 @tailwind utilities;
